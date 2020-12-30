@@ -11,7 +11,7 @@ body{
 }
 .container{
     width: 80vw;
-    height: 500vh;
+    height: 509vh;
     box-shadow: black 2px 3px 9px, black -2px 3px 9px ;
 }
 
@@ -159,7 +159,7 @@ header img{
     padding: 16px 50px;
     font-size: large;
     color: white;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(83, 83, 83);
 }
 .pack4 button:hover{
     background-color: rgb(231, 198, 154);
@@ -172,13 +172,21 @@ header img{
 /* ------------------- footer --------------------- */
 
 footer{
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(55, 56, 56);
+    display: flex;
+    justify-content: center;
+    
 }
-#footer img{
-   width: 30px;
-   height: 30px;
+.packs img{
+   height: 50px;
+   padding: 15px;
 }
 h6{
     color: white;
-    font-size: medium;
+    font-size: x-large;
+}
+.packs{
+    flex-direction: column;
+    display: inline;
+    margin: 0px 40px 40px 40px;
 }
