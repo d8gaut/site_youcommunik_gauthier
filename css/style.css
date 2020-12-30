@@ -11,7 +11,7 @@ body{
 }
 .container{
     width: 80vw;
-    height: 509vh;
+    height: 100%;
     box-shadow: black 2px 3px 9px, black -2px 3px 9px ;
 }
 
@@ -25,14 +25,16 @@ body{
     
 }
 .logo{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .lien{
-    text-align: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-left: 90px;
 }
 .lien span{
-    text-transform: none;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
 }
 
 /* ------------------ header ----------------- */
@@ -62,12 +64,11 @@ header img{
 
 #pack{
     background-color: rgb(40, 81, 109);
-    padding: 100px;
-    display: block;
+    padding: 80px;
 }
 .titre{
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
     float: left;
     margin-left: 16vw;
 }
@@ -77,6 +78,7 @@ header img{
 } 
 .packages{
     width: 40%;
+    margin-left: 100px;
 } 
 .titre{
     width: 60%;
@@ -86,7 +88,7 @@ header img{
     justify-content: center;
     width: 100%;
     color: white;
-    font-size: large;
+    font-size: X;
 }
 .pack2 div{
     display: flex;
@@ -108,7 +110,7 @@ header img{
     color:  rgb(40, 81, 109);
 }
 .pack2 button:hover{
-    background-color: rgb(231, 198, 154);
+    background-color: rgb(207, 204, 201);
 }
 
 /* ---------------------- pack 2 ------------------- */
@@ -119,7 +121,7 @@ header img{
     display: block;
 }
 .titres{
-    font-size: xx-large;
+    font-size: x-large;
     float: left;
     margin-left: 16vw;
 }
@@ -146,7 +148,7 @@ header img{
     flex-direction: column;
     align-items: center;
     width: 25%;
-    margin: 30px;
+    margin: 0px 30px;
 }
 .pack4 span{
     color: black;
@@ -162,7 +164,7 @@ header img{
     background-color: rgb(83, 83, 83);
 }
 .pack4 button:hover{
-    background-color: rgb(231, 198, 154);
+    background-color: rgb(180, 179, 177);
 }
 /* .pack4 img{
     height: 100px;
@@ -178,12 +180,13 @@ footer{
     
 }
 .packs img{
-   height: 50px;
+   height: 60px;
    padding: 15px;
 }
 h6{
     color: white;
     font-size: x-large;
+    margin-left: 20px;
 }
 .packs{
     flex-direction: column;
