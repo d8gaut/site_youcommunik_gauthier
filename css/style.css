@@ -1,5 +1,184 @@
+/* -------------structure ---------------- */
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0%
+}
+.container{
+    width: 80vw;
+    height: 500vh;
+    box-shadow: black 2px 3px 9px, black -2px 3px 9px ;
+}
+
+/* ---------------- navbar --------------- */
+
 #navbar{
     background-color: black;
-    height: 20vh;
-    width: 100vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    margin-left: 10px;
+}
+.lien{
+    text-align: center;
+    justify-content: center;
+}
+.lien span{
+    text-transform: none;
+}
+
+/* ------------------ header ----------------- */
+
+header img{
+   width: 100%; 
+}
+
+/* ------------------ presentation --------------- */
+
+#presentation{
+   display: flex;
+   margin: 80px;
+}
+#presentation img{
+    width: 200px;
+    
+}
+.presentation{
+    margin-left: 50px;
+}
+.presentation h1{
+    font-size: xx-large;
+}
+
+/* ---------------------- pack 1 ------------------- */
+
+#pack{
+    background-color: rgb(40, 81, 109);
+    padding: 100px;
+    display: block;
+}
+.titre{
+    color: white;
+    font-size: xx-large;
+    float: left;
+    margin-left: 16vw;
+}
+.pack1{
+    display: flex;
+    width: 100%;
+} 
+.packages{
+    width: 40%;
+} 
+.titre{
+    width: 60%;
+} 
+.pack2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: large;
+}
+.pack2 div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 30px;
+}
+.pack2 span{
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+}
+.pack2 button{
+    border: none;
+    padding: 16px 50px;
+    font-size: large;
+    color:  rgb(40, 81, 109);
+}
+.pack2 button:hover{
+    background-color: rgb(231, 198, 154);
+}
+
+/* ---------------------- pack 2 ------------------- */
+
+#pack2{
+    
+    padding: 100px;
+    display: block;
+}
+.titres{
+    font-size: xx-large;
+    float: left;
+    margin-left: 16vw;
+}
+.pack3{
+    display: flex;
+    width: 100%;
+} 
+.packages{
+    width: 40%;
+} 
+.titre{
+    width: 60%;
+} 
+.pack4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: large;
+}
+.pack4 div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 30px;
+}
+.pack4 span{
+    color: black;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+}
+.pack4 button{
+    border: none;
+    padding: 16px 50px;
+    font-size: large;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+.pack4 button:hover{
+    background-color: rgb(231, 198, 154);
+}
+/* .pack4 img{
+    height: 100px;
+    width: 100px;
+} */
+
+/* ------------------- footer --------------------- */
+
+footer{
+    background-color: rgb(20, 20, 20);
+}
+#footer img{
+   width: 30px;
+   height: 30px;
+}
+h6{
+    color: white;
+    font-size: medium;
 }
